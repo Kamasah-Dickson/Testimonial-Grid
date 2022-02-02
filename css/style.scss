@@ -13,7 +13,7 @@
 
 body{
     background-color: hsl(210, 46%, 95%);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h2,h1,p{
@@ -25,6 +25,7 @@ span{
 }
 
 main{
+    padding:10px 0;
     .container{
         width:90%;
         margin:0 auto;
@@ -202,7 +203,7 @@ main{
         color:hsl(219, 29%, 14%);
         }
         text-align: center;
-        margin:2rem 0;
+        margin-top:2rem;
         
         font-size:.9rem;
         a{
@@ -216,6 +217,7 @@ main{
 @media screen and (min-width:700px) {
   
 main{
+    padding:128px 0;
     .container{
         .testimonial{
             grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
@@ -231,7 +233,7 @@ main{
   
     main{
         .container{
-            width:87%;
+            max-width:1200px;
             margin:0 auto;
             .testimonial{
                 margin-top:4.5rem;
